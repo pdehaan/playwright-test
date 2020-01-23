@@ -1,0 +1,32 @@
+{
+  "name": "playright-test",
+  "description": "playwright -- a Node library to automate the Chromium, WebKit and Firefox browsers",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/playwright-test/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "playwright": "^0.9.21"
+  },
+  "homepage": "https://github.com/pdehaan/playwright-test#readme",
+  "keywords": [
+    "chromium",
+    "firefox",
+    "playwright",
+    "puppeteer",
+    "webkit"
+  ],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/playwright-test.git"
+  },
+  "scripts": {
+    "format": "npx prettier *.js --write",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
