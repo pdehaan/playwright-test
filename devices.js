@@ -6,6 +6,6 @@ const { name, version } = require("playwright/package.json");
 console.log(`${name}@${version}`);
 for (const device of pw.devices) {
   const name = (device.name + " ").padEnd(32, ".");
-  const viewport = JSON.stringify(device.viewport);
+  const viewport = JSON.stringify(device.viewport).replace(/,/g, ", ");
   console.log(`${name} ${viewport}`);
 }
