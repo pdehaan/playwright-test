@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const pw = require("playwright");
 const {name, version} = require("playwright/package.json");
 
