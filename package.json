@@ -8,7 +8,7 @@
     "url": "https://github.com/pdehaan/playwright-test/issues"
   },
   "dependencies": {
-    "playwright": "^0.9.21"
+    "playwright": "^1.33.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/pdehaan/playwright-test#readme",
